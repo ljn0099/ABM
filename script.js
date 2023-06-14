@@ -121,10 +121,7 @@ function eliminarEmpleado(id){
             return data.id !== id;
         }
 
-        mostrarEmpleados();
-        // listaEmpleados = listaEmpleados.filter(function(empleado) {
-        //     return empleado.id !== id;
-        //   });//crea el nuevo array con las condiciones que cumple 
+        mostrarEmpleados(); 
     }
     else {
         alert("Cancelado")
